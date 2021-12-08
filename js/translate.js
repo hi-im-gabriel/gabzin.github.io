@@ -3,7 +3,7 @@ var linguJSON = {
         {
             "lang_name": "English",
             "lang_code": "en",
-            "url_pattern": "gabzin.github.io"
+            "url_pattern": "?"
         },
         {
             "lang_name": "Português",

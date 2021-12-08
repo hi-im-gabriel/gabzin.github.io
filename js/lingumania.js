@@ -19,7 +19,7 @@ whether standalone or as part of another javascript, are not permitted without p
         translationLang = parseURL(w.location.href, true).substring(parseURL(w.location.href, true).lastIndexOf('.') + 1, parseURL(w.location.href, true).length);
 
     if (translationLang)
-        d.body.style.visibility = "hidden";
+        d.body.style.visibility = "visible";
 
 
     var NodeFilter = {
