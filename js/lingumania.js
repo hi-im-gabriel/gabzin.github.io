@@ -17,7 +17,8 @@ whether standalone or as part of another javascript, are not permitted without p
         translationLang = parseURL(w.location.href, true).substring(0, parseURL(w.location.href, true).indexOf('.'));
     else if (parseURL(w.location.href, true).substring(parseURL(w.location.href, true).lastIndexOf('.') + 1, parseURL(w.location.href, true).length).length == 2)
         translationLang = parseURL(w.location.href, true).substring(parseURL(w.location.href, true).lastIndexOf('.') + 1, parseURL(w.location.href, true).length);
-
+    else
+        translationLang = "en"
     if (translationLang)
         d.body.style.visibility = "visible";
 
@@ -473,6 +474,7 @@ whether standalone or as part of another javascript, are not permitted without p
                     }
                     menuHeight += 30;
                 }
+
                 var translateNowItem = d.createElement("a");
                 langMenu.appendChild(translateNowItem);
                 menuHeight += 30;
