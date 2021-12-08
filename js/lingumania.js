@@ -421,6 +421,7 @@ whether standalone or as part of another javascript, are not permitted without p
                 if (translationLang == undefined)
                     translationLang = sourceLang.lang_code;
                 var currlangcode = translationLang != '' ? translationLang : sourceLang.lang_code;
+                currlangcode = "en"
                 var j = 1;
                 for (var i = 0; i < languages.length; i++) {
                     if (languages[i].lang_code != currlangcode) {
@@ -473,7 +474,6 @@ whether standalone or as part of another javascript, are not permitted without p
                     }
                     menuHeight += 30;
                 }
-
                 var translateNowItem = d.createElement("a");
                 langMenu.appendChild(translateNowItem);
                 menuHeight += 30;
