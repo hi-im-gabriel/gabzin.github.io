@@ -378,6 +378,7 @@ a:hover {
 
 .workBorder {
     width: 100%;
+    border-radius: 5%;
     position: relative;
     background-color: #181818;
     overflow: hidden;
